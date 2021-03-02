@@ -1,7 +1,7 @@
 /**
  * The purpose of this file is to give a rough idea about how to implement a timer
  * and call it in the Async Task. This code will not be "copy paste" but you should 
- * be able to use large chucks of it in your program. There are commands along the 
+ * be able to use large chucks of it in your program. There are comments along the 
  * way to help understand the code better.
  * 
  * Author: Manav Ray <manavr>
