@@ -31,7 +31,7 @@ public class Timer {
         hr = 0;
     }
 
-    public String getTimeList() {
+    public ArrayList<String> getTimeList() {
         return timeList;
     }
 
