@@ -11,11 +11,11 @@
 
 /**
  * Timer class - you will most likely have this in its own file and should be able to use
-* most of the logic from here.
-*
-* Logic should be pretty easy to follow. You can post on piazza/discord or come to my office
-* hours if you have any other questions.
-*/
+ * most of the logic from here.
+ *
+ * Logic should be pretty easy to follow. You can post on piazza/discord or come to my office
+ * hours if you have any other questions.
+ */
 public class Timer {
 
     private String timeList;
