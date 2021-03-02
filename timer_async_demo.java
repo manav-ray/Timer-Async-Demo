@@ -18,14 +18,14 @@
  */
 public class Timer {
 
-    private String timeList;
+    private ArrayList<String> timeList;
     private int sec;
     private int min;
     private int hr;
 
     public CalcTime()
     {
-        timeList = "";
+        timeList = new ArrayList<String>();
         sec = 0;
         min = 0;
         hr = 0;
@@ -64,7 +64,7 @@ public class Timer {
 
     public String addTime(String time)
     {
-        timeList += time + "\n";
+        timeList.add(time);
         return timeList;
     }
 
@@ -73,7 +73,7 @@ public class Timer {
         sec = 0;
         min = 0;
         hr = 0;
-        timeList = "";
+        timeList = = new ArrayList<String>();
     }    
 }
 
